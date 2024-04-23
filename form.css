@@ -1,13 +1,17 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
+  background-image: url("https://source.unsplash.com/random/1920x1080"); /* Background image */
+  background-size: cover;
+  background-position: center;
   margin: 0;
+  
   padding: 0;
 }
 form {
   width: 80%;
   margin: 50px auto;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.5);
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
@@ -15,12 +19,12 @@ form {
 h2 {
   text-align: center;
   margin-bottom: 30px;
-  color: #333;
+  color: #f8f8f8;
 }
 label {
   display: block;
   margin-bottom: 10px;
-  color: #666;
+  color: #f8f8f8;
   font-size: 16px;
 }
 input[type="text"],
